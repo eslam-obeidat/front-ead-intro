@@ -8,7 +8,34 @@
  * [Hellow with html](#general-info)
 
  #### we learn about html elemant
-    which consists of 
-    <h1,.....h6>
-    <p>
-    <tagneame>
+     which consists of :   
+        <DOCTYPE html>
+        <html>
+        <head>
+        <title>
+        <body>
+
+####and we learn about set of elemant
+    which consists of :
+     1-Header elemant
+        <h1,.....h6>
+     2- Paragraph
+        <p> 
+     3-Link elemant
+        <a>
+     4-image eiemant
+        <img>  
+####HTML Text Formatting
+
+       <b>- Bold text
+       <i>-Italic text
+       <strong>- Important text 
+       <em> - Emphasized text
+       <mark> - Marked text
+       <small> - Smaller text 
+       <del>- Deleted text
+       <ins> - Inserted text
+       <sub> - Subscript text 
+       <sup>- Superscript text
+
+    
