@@ -23,7 +23,7 @@
         <p> 
      3-Link elemant
         <a>
-     4-image eiemant
+     4-Image eiemant
         <img>  
 ####HTML Text Formatting
 
@@ -38,4 +38,11 @@
        <sub> - Subscript text 
        <sup>- Superscript text
 
-    
+####Html Form
+     1-Name   
+     2-Number
+     3-Phone
+     4-Password
+     5-Email
+     6-Date
+     7-URL
