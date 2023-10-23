@@ -46,3 +46,15 @@
      5-Email
      6-Date
      7-URL
+
+####css style shapes
+     1-inline style
+     2-style tag
+     3-css file
+
+####style shapes
+     1-color
+     2-background-color
+     3-font-size
+     4-padding
+     5-margin

@@ -3,15 +3,41 @@
 <head>
 
     <title>Home</title>
+    
+    <style>
+            label{
+                    color:green;
+            }
+              
+                       /* css = . */
+            .title{
+                color: rgb(43, 40, 43);
+                background-color: rgb(247, 129, 153);
+                font-size: 20px;
+            }
+ 
+                        /* id = #  */
+            #h3style{
+                color: aqua;
+                background-color:rgb(176, 32, 176);
+                font-size: 20px;
+            }
+    </style>
+
 </head>
 <body>
     <!-- Header Elemant -->
- <h1>hi iam h1</h1>
- <h2>hi iam h2</h2>  
- <h3>hi iam h3</h3>
- <h4>hi iam h4</h4>
- <h5>hi iam h5</h5>
- <h6>hi iam h6</h6>
+
+    <!-- propertise : id : Definition of one string , for one elemant-->
+    <!-- propertise : class : , fot more than one elemant -->
+
+
+ <h1 class="title">hi iam h1</h1>
+ <h2 class="title">hi iam h2</h2>  
+ <h3 class="title" id="h3style">hi iam h3</h3>
+ <h4 class="title">hi iam h4</h4>
+ <h5 class="title">hi iam h5</h5>
+ <h6 class="title">hi iam h6</h6>
     <!-- Paragraph Elemant -->
     <!-- we can put (a tag),(text formatting) insid it -->
 <p>
@@ -68,8 +94,21 @@
 </html>
 
         <!--ex : When you press the button, you can save or send a specific message  -->
+        <!-- propertise :  style="color : Change the color of the text, not the box -->
+        <!-- propertise : background-color :Change the background of the button -->
+        <!-- propertise : font-size : font size -->
 
-    <button>hi iam button</button>
+
+                         <!-- inline style -->
+    <button 
+
+        style="color: blue;
+         background-color: crimson;
+         padding: 40px;
+         margin: 50px;
+         font-size: 20px;">
+
+         hi iam button</button>
     <br>
 
     <!--propertise : action : associated with back end  -->
@@ -80,9 +119,10 @@
         <!-- number : to add number -->
         <!-- placeholder : to add words inside the box -->
         <!-- propertise : required : It is not possible to skip until the process is completed -->
+        <!-- propertise : id : Definition of one string , for one elemant-->
+        <!-- propertise : class : , fot more than one elemant -->
 
-
-    <label for="x">any thing</label>
+    <label for="x" style="color: brown;">any thing</label>
     <br>
     <input type="number" name="x" id=""placeholder="number"required>
     <br>
@@ -102,7 +142,7 @@
     <br>
     <label for="password">inter your password</label>
     <br>
-    <input type="password" name="password" id=""placeholder="password"required>
+    <input type="password" name="password" id="" class="" placeholder="password"required>
     <br>
     <label for="date">date</label>
     <br>
@@ -129,7 +169,10 @@
     <br>
     <br>
     <input type="submit">
-    
+    <br>
+    <br>    
+    <button>insert</button>
+
     </form> 
     
     
