@@ -1,0 +1,62 @@
+
+body{
+    background: skyblue;
+}
+/* table{
+    margin: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+} */
+
+        /* should be placed #  */
+
+#mainTable{
+    width: 50%;
+    margin: auto;
+    border-collapse: collapse;
+    border: 1px solid #ddd;
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+th,td{
+    padding: 5px; 
+    border: 2px solid black;
+}
+
+        /* the first way */
+#mainTable>thead>tr>th{ 
+    color: red;
+}
+
+#mainTable>tbody>tr>td{
+    color: blue;
+} 
+
+        /* the second way */
+#mainTable th{
+    color: red;
+}
+
+#mainTable td{
+    color: blue;
+}
+ 
+        /* propertise : text-align: center  : To put the words in the middle of the table */
+table{
+    margin: auto;
+    border: 5px solid black;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+        /* schedul */
+th,td{
+    padding: 5px; 
+    border: 2px solid black;
+    text-align: center;
+}
+
+#mainTableTitle{
+    text-align: center;
+}

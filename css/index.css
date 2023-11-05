@@ -1,0 +1,47 @@
+
+body{
+    background: silver;
+}
+
+
+            label{
+                    color:green;
+                    margin: auto;
+                    padding: 10px;
+            }
+
+            input{
+                margin: auto;
+                padding: 5px;
+            }
+              
+                       /* css = . */
+            .title{
+                color: rgb(43, 40, 43);
+                background-color: rgb(247, 129, 153);
+                font-size: 20px;
+            }
+
+            button{ 
+                margin-top: 16px;
+                padding: 8px;
+            }
+
+                        /* id = #  */
+            #h3style{
+                color: aqua;
+                background-color:rgb(176, 32, 176);
+                font-size: 20px;
+            }
+
+                /* display : view method */
+                /* flex : to be flexible in dealing*/
+
+            form{
+                display: flex;
+                flex-direction: column;
+                width: 500px;
+                margin-top: auto;
+            }
+
+            
