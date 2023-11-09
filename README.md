@@ -62,7 +62,7 @@
      4-padding
      5-margin
 
-####table with css
+####table
       <tr>
          <th></th>
       </tr>

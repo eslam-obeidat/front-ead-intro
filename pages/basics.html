@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>basics</title>
+
+ <!--The function of the link  : Link the html file with the css file -->
+        <!-- rel = relation -->
+
+     <link rel="stylesheet" href="../css/basics.css">
+
+
+</head>
+<body>
+             <!-- Header Elemant -->
+
+        <!-- We must put pages before news in order for the page to work -->
+
+ <a href="./index.html">Home</a>   
+ <br>      
+ <a href="../pages/news.html">news</a>
+ <br>
+ <a href="../pages/table.html">table</a>
+ <br>
+
+           
+
+
+         <!-- propertise : id : Definition of one string , for one elemant-->
+         <!-- propertise : class : , fot more than one elemant -->
+
+
+    <h1 class="title">hi iam h1</h1>
+    <h2 class="title">hi iam h2</h2>  
+    <h3 class="title" id="h3style">hi iam h3</h3>
+    <h4 class="title">hi iam h4</h4>
+    <h5 class="title">hi iam h5</h5>
+    <h6 class="title">hi iam h6</h6>
+       <!-- Paragraph Elemant -->
+       <!-- we can put (a tag),(text formatting) insid it -->
+   <p>
+   
+     <a href="README.md">README</a> 
+     <br>
+     <b>hi iam bold </b>
+     <br>
+     <i>hi iam italic</i>
+     <br>
+     <em>hi iam emphasied</em>
+     <br> 
+     <strong>hi iam important</strong> 
+     <br>
+     <mark>hi iam marked</mark>
+     <br> 
+     <small>hi iam smaller</small>
+     <br> 
+     <del>hi iam deleted</del> 
+     <br>
+     <ins>hi iam inserted</ins>
+     <br>
+     <sub>hi iam subscript</sub>
+     <br> 
+     <sup>hi iam superscript</sup> 
+   
+   </p>
+   
+       <p> hi am <b>bold</b> </p>
+   
+       <!-- Link Elemant -->
+       <!-- a tage for other website or other file inside my project -->
+       <!-- propertise : href : put the link insid the quotation -->
+       <!-- propertise : target="_blank" : open anew tape -->
+   
+   <a href="https://www.google.com/"target="_blank">Google</a>
+   
+       <!-- break elemant -->
+       <!-- separation betwen lines -->
+   <br>     
+   <br> 
+       <!-- img tag -->
+       <!-- propertise : src : Where do you want to show the picture  -->
+   
+   <img src="https://www.seedengineering.com/wp-content/uploads/2022/06/IMG-Park-2.png" alt="disney land"width="300px">  
+   <br>
+   <br>
+   
+   
+           <!--ex : When you press the button, you can save or send a specific message  -->
+           <!-- propertise :  style="color : Change the color of the text, not the box -->
+           <!-- propertise : background-color :Change the background of the button -->
+           <!-- propertise : font-size : font size -->
+   
+   
+                            <!-- inline style -->
+       <button 
+   
+           style="color: blue;
+            background-color: crimson;
+            padding: 40px;
+            margin: 50px;
+            font-size: 20px;"
+            
+            >hi iam button</button>
+       <br>
+   
+       <!--propertise : action : associated with back end  -->
+   
+   <form action="">
+   
+           <!-- text : to add letters -->
+           <!-- number : to add number -->
+           <!-- placeholder : to add words inside the box -->
+           <!-- propertise : required : It is not possible to skip until the process is completed -->
+           <!-- propertise : id : Definition of one string , for one elemant-->
+           <!-- propertise : class : , fot more than one elemant -->
+   
+       <label for="x" style="color: brown;">any thing</label>
+       <br>
+       <input type="number" name="x" id=""placeholder="number"required>
+       <br>
+           <!-- max length : To set a specific limit of numbers -->
+       <label for="x">phone</label>
+       <br>
+       <input type="number"max length="10" name="x" id=""placeholder="number"required>
+       <br>
+   
+       <label for="name">inter your name</label>
+       <br>
+       <input type="text" name="name" id=""placeholder="name"required> 
+       <br>
+       <label for="email">inter your email</label>
+       <br>
+       <input type="email" name="email" id=""placeholder="email"required> 
+       <br>
+       <label for="password">inter your password</label>
+       <br>
+       <input type="password" name="password" id="" class="" placeholder="password"required>
+       <br>
+       <label for="date">date</label>
+       <br>
+       <input type="date" name="date" id=""placeholder="date"required>
+       <br>
+   
+           <!-- URL = link : you must start with https://  -->
+   
+       <label for="url">Url:</label>
+       <br>
+       <input type="url" id="url" name="url" placeholder="Enter your url" required>
+   
+   
+       <!-- select input -->
+   
+       <br>
+       <label for="selectTrueOrFalse"> True or false</label> 
+       <br>
+       <select name="selectTrueOrFalse" id=""> 
+           <option value="true">true</option>
+           <option value="false">false</option>
+           <option value="non">non</option>
+       </select>
+       <br>
+       <br>
+       <input type="submit">
+       <br>
+       <br>    
+       <button>insert</button>
+       <br>
+       <button value="submit">submit</button>
+       <br>
+       <br>
+   
+               
+      
+   
+       </form> 
+       
+       
+   
+
+</body>
+</html>

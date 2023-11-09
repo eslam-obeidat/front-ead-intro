@@ -1,4 +1,3 @@
-
 body{
     background: silver;
     margin: 0px;
@@ -31,7 +30,7 @@ body{
     font-size: 50px;
     margin-left: 100px;
     margin-top: 20px;
-    margin-right: 100px;
+    /* margin-right: 40px; */
     float: left;
     /* display: inline; */
 }
@@ -72,28 +71,6 @@ body{
                 /* propertise : text-align: center  : To put the words in the middle of the table */
     text-align: center;
 }
-
-.gridContainer{
-
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 10px;
-    background-color: palegreen;
-    margin-top: 150px;
-    margin-left: 50px;
-    margin-right: 50px;
-
-}
-
-.gridItem{
-    text-align: center;
-    background-color: aquamarine;
-    padding: 50px;
-    margin-left: 20px;
-    
-}
-
-img{
-    max-width: 200px;
-    height: auto;
+#mainDev{
+    font-size: 40px;
 }
