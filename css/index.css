@@ -1,78 +1,4 @@
 
-body{
-    background: silver;
-    margin: 0px;
-    padding: 0px;
-}
-
-/* header / nav bar / for all the pages contain logo title and 5 a tags to navigate between the pages  */
-
-#headerDiv{
-    background-color: black;
-    height: 100px;
-    width: 100%;
-
-                /* propertise : position: fixed : To keep the header steady */
-    position: fixed;    
-        top: 0;
-        left: 0;
-}
-
-#headerDiv img{
-    height: 100px;
-    width: 100px;
-
-                /* propertise : float : To control the display direction */
-    float: left;
-}
-
-#headerDiv h1{
-    color: #fff;
-    font-size: 50px;
-    margin-left: 100px;
-    margin-top: 20px;
-    margin-right: 100px;
-    float: left;
-    /* display: inline; */
-}
-
-#headerDiv a{
-    color: #fff;
-    font-size: 15px;
-    margin-left: 40px;
-    margin-top: 40px;
-    float: left;
-
-                /* propertise : text-decoration : Hide the line under the word */
-    text-decoration: none;
-    background-color: gray;
-    padding: 5px;
-    border: 1px solid #fff;
-
-                /* propertise : border-radius : To create an arc shape in place of the corner */
-    border-radius: 5px;
-}
-
-                /* add style for footer that conatin 1 p tag  */
-#footerDiv{
-    background-color: #1a1a1a;
-    height: 50px;
-    width: 100%;
-    position: fixed;
-        bottom: 0;  
-        left: 0;
-}
-
-#footerDiv p{
-    color: #fff;
-    font-size: 15px;
-    margin-left: 40px;
-    margin-top: 10px;
-
-                /* propertise : text-align: center  : To put the words in the middle of the table */
-    text-align: center;
-}
-
 .gridContainer{
 
     display: grid;
@@ -96,4 +22,9 @@ body{
 img{
     max-width: 200px;
     height: auto;
+    border-radius: 20px;
 }
+
+              
+
+
