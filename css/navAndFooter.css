@@ -31,24 +31,32 @@ body{
     font-size: 50px;
     margin-left: 100px;
     margin-top: 20px;
-    margin-right: 100px;
+    /* margin-right: 100px; */
     float: left;
     /* display: inline; */
 }
 
-#headerLinks{
+#headerLinks a{
     margin-right: 5%;
+  /* margin-left: 600px; */
     margin-top: 40px;
+    display: block;
     float: right;
   }
   
+              /* propertise : hover : To change the color when you point to the button */
+#headerLikes a:hover{
+    background-color: #fff;
+    color: #1a1a1a;
+  }
 
 #headerDiv a{
     color: #fff;
     font-size: 15px;
-    margin-left: 40px;
+    /* margin-left: 40px; */
+    margin-right: 40px;
     margin-top: 40px;
-    float: left;
+    float: right;
 
                 /* propertise : text-decoration : Hide the line under the word */
     text-decoration: none;
@@ -58,6 +66,7 @@ body{
 
                 /* propertise : border-radius : To create an arc shape in place of the corner */
     border-radius: 5px;
+    display: block;
 }
 
                 /* add style for footer that conatin 1 p tag  */
@@ -86,34 +95,68 @@ body{
             /* we can change the style depends on the user or client screen width  */
 
     /* mobile view  */
-  @media only screen and (max-width: 600px){
-    #headerLinks{
-      
-      margin-top: 10px;
-      background-color: red;
-      padding: 20px;
 
 
+  @media only screen and (max-width: 1000px){
+
+    body{
+      background: gray;
     }
-    #headerLinks a{
-      display: block;
-      background-color:red ;
-      border:0px;
-      text-align: center;
-      margin-left: 0px;
-      /* padding-left: 25px; */
+
+    #headerDiv a{
+      margin-right: 25px;
     }
-    #headerLinks a:hover{
-      background-color: #fff;
-      color: #000;
+
+    #headerDiv h1{
+           font-size: 36px;
+           margin-left: 30px;
     }
-    body {
-      background-color: red;
+
+    #headerLikes a{
+          margin-top:4% ;
+          /* margin-left: 40px; */
     }
+
+    
   }
- 
-  /* @media only screen and (min-width: 600px) {
-    body {
-      background-color: lightgreen;
+
+    @media only screen and (max-width: 600px){
+
+      body{
+        background: silver;
+      }
+  
+      #headerDiv{
+        /* display: block; */
+        height: 80px;
+      }
+
+      #headerDiv a{
+        display: block;
+        margin-right: 7px;
+        font-size: 7px;
+        /* border-radius:0px;
+        text-align: none;
+        border: none; */
+      }
+  
+      #headerDiv h1{
+             font-size: 24px;
+             margin-left: 0px;
+      }
+  
+      #headerLikes a{
+            display: block;
+            margin-top:7% ;
+            /* margin-left: 40px; */
+      }
+  
+      #headerDiv img{
+        height: 75px;
+        width: 75px;
+      }
+
+
     }
-  } */
+
+   
