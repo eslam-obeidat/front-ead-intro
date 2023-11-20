@@ -261,7 +261,7 @@ var newNum = 10 ;   //number
     //        //dksomething
 // }
 
-var x = 60 
+var x = 1 
 
 while (x < 100){
     console.log(x);
@@ -273,4 +273,22 @@ console.log(x);
 x++;
 }
 while (x < 100);
- 
+
+// functions in js a blok of code that can be used many times when we call the function
+// declaration > create the fun
+// function name (parameters) {
+    //       //do something
+// }
+
+// call the fun when we want to use it
+// name(parameters);
+
+function calculateSumation(num1, num2){  
+    let sum = num1+num2; 
+    console.log(sum);
+    return sum;
+}
+console.log(calculateSumation(10,20)); 
+calculateSumation(30,20); 
+calculateSumation(25,20); 
+
