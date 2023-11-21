@@ -76,4 +76,6 @@ myForm.addEventListener('submit', function(e) {
     myResult.style.fontFamily = "arial"
     myResult.style.textAlign = "center"
     
-    })
+    }) 
+
+    
