@@ -9,7 +9,7 @@ var body = document.getElementsByTagName('body');
 // console.log(body[0]);
 // console.log(body[0].style.backgroundColor);
 
-            //==================//
+             //==================//
             // changeBackground //
            //==================//
 
@@ -26,4 +26,23 @@ function changeBackground() {
     
     }else
     body[0].style.backgroundColor='red';
+    }
+
+    var userName = document.getElementById("userName"); 
+    userName.innerHTML = localStorage.getItem("name");    
+
+
+
+
+    var loginOrOut = document.getElementById("loginOrOut"); 
+
+
+
+    if (localStorage.getItem('name') != null) {
+     loginOrOut.innerHTML='logout';
+    }
+
+    else{
+        alert('you are not a user please login'); 
+        location.replace('../pages/login.html');
     }

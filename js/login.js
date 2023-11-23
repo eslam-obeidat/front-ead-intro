@@ -14,6 +14,11 @@ loginForm.addEventListener('submit',function(e) {
             showConfirmButton: false,
             timer: 6000
         });
+
+                       // To move from page to page
+                       
+        window.location ="../index.html";
+        // location.replace(../index.html");
     }
     else {
         Swal.fire ({ 
@@ -24,5 +29,7 @@ loginForm.addEventListener('submit',function(e) {
             timer: 6000
 
         });
+
+        
     }
 });
