@@ -46,3 +46,10 @@ function changeBackground() {
         alert('you are not a user please login'); 
         location.replace('../pages/login.html');
     }
+
+    function clearStorage(){
+        localStorage.removeItem('name');
+        localStorage.removeItem('email');
+        localStorage.removeItem('password');    
+        location.replace('../pages/login.html');
+    }
