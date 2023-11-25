@@ -43,8 +43,8 @@ function changeBackground() {
     }
 
     else{
-        alert('you are not a user please login'); 
-        location.replace('../pages/login.html');
+        // alert('you are not a user please login'); 
+        // location.replace('../pages/login.html');
     }
 
     function clearStorage(){
@@ -53,3 +53,16 @@ function changeBackground() {
         localStorage.removeItem('password');    
         location.replace('../pages/login.html');
     }
+
+    var rtlOrLtr = document.getElementById("flexSwitchCheckChecked");
+    var body = document.getElementById("body"); 
+    rtlOrLtr.addEventListener('click', function(){ 
+        if(rtlorLtr.checked) { 
+            body.style.direction = 'rtl';
+        }
+
+        else{
+            body.style.direction = 'ltr'; 
+        }
+
+}) 

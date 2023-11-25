@@ -48,7 +48,7 @@ loginForm.addEventListener('submit',function(e) {
 
     //                    // To move from page to page
                        
-    //     window.location ="../index.html";
+        window.location ="../index.html";
     //     // location.replace(../index.html");
     // }
     // else {
