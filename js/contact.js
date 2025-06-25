@@ -24,3 +24,6 @@ contactForm.addEventListener('submit',function(e){
     timer: 6000
   });
 })
+
+
+
